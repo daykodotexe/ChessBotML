@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# React
+node_modules/
+dist/
+
+# Stockfish
+stockfish/
+stockfish.exe
+
+# OS
+.DS_Store
+Thumbs.db

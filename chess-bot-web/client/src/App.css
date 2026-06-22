@@ -1,0 +1,103 @@
+#root {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Color selection screen */
+.color-select {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.color-select p {
+  font-size: 1.2rem;
+  color: #aaa;
+}
+
+.color-buttons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.color-btn {
+  font-size: 1.4rem;
+  padding: 1rem 2.5rem;
+  border-radius: 12px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.color-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+}
+
+.white-btn {
+  background: #f0d9b5;
+  color: #1a1a1a;
+  border-color: #b58863;
+}
+
+.black-btn {
+  background: #b58863;
+  color: #fff;
+  border-color: #7a5c3f;
+}
+
+/* Board */
+.board-wrapper {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+/* Controls */
+.controls {
+  margin-top: 1.2rem;
+}
+
+.status-text {
+  font-size: 1.1rem;
+  color: #ccc;
+  min-height: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.button-row {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+button {
+  padding: 0.55rem 1.3rem;
+  border-radius: 8px;
+  border: 1px solid #555;
+  background: #2a2a2a;
+  color: #eee;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.15s;
+}
+
+button:hover:not(:disabled) {
+  background: #3a3a3a;
+}
+
+button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
