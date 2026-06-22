@@ -28,3 +28,6 @@ pip install -r requirements.txt
 cd chess-bot-web
 npm install
 npm run dev
+
+### Notes
+stockfish is not included, you can download it from the website https://stockfishchess.org/download/ and add stockfish.exe to /server folder 
